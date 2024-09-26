@@ -1,0 +1,67 @@
+{
+  "uuid": "a629665b-4366-4447-9cc6-2895052475ed",
+  "historyId": "15952e7156dcedeb61c2cc73dce24b7a",
+  "testCaseId": "922168c30e7a1ce23c71136783e83c17",
+  "fullName": "NunitSeleniumTraining:NunitSeleniumTraining.Assignment.parasoftregister.register(System.String,System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "AUTOGPDWLIC0VNZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSeleniumTraining.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "register"
+    },
+    {
+      "name": "testClass",
+      "value": "parasoftregister"
+    }
+  ],
+  "links": [],
+  "name": "register(\"Sjhsddda\",\"admin123\",\"admin123\")",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [],
+  "attachments": [
+    {
+      "name": "Console Output",
+      "source": "f20caa96-7c10-42be-9b2f-97617977a4e8-attachment.txt",
+      "type": "text/plain"
+    }
+  ],
+  "parameters": [
+    {
+      "name": "user",
+      "value": "\"Sjhsddda\"",
+      "excluded": false
+    },
+    {
+      "name": "pass",
+      "value": "\"admin123\"",
+      "excluded": false
+    },
+    {
+      "name": "cpass",
+      "value": "\"admin123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1727091656473,
+  "stop": 1727091680680
+}

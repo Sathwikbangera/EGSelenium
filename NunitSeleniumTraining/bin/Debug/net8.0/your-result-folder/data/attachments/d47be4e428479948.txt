@@ -1,0 +1,2 @@
+Executing setup
+All unit tst of Cslculator functionality are executed
