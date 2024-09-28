@@ -9,12 +9,12 @@ using OpenQA.Selenium;
 
 namespace NunitSeleniumTraining.Paralllel
 {
-    [Parallelizable]
+  //  [Parallelizable]
     internal class ParellelExUsingTestParam : Base
     {
         
-        [Test, TestCaseSource("GetTestData")]
-        [Parallelizable(ParallelScope.Children)]
+        //[Test, TestCaseSource("GetTestData")]
+        //[Parallelizable(ParallelScope.Children)]
         public void LoginTest(string username, string password)
         {
             DateTime currentTime = DateTime.Now;

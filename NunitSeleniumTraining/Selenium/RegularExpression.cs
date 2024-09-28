@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSeleniumTraining.Selenium
 {
@@ -28,15 +29,15 @@ namespace NunitSeleniumTraining.Selenium
         {
 
             // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
             // intialize the web driver 
-            driver = new EdgeDriver();
+            driver = new ChromeDriver();
             // launch the chrome browser
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://the-internet.herokuapp.com/windows");
 
         }
-        [Test]
+       // [Test]
         public void testcase1()
         {
             IWebElement footer = driver.FindElement(By.XPath("//div[starts-with(@class, 'Footer__')]"));

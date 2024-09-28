@@ -31,14 +31,14 @@ namespace NunitSeleniumTraining.Selenium
             //HR1.png
             Thread.Sleep(1000);
           
-            IWebElement downloadLink = driver.FindElement(By.LinkText("sample-1.pdf"));
+            IWebElement downloadLink = driver.FindElement(By.LinkText("file.png"));
             downloadLink.Click();
 
             // Wait for the file to download
             Thread.Sleep(5000);
 
             // Verify the file has been downloaded
-            string filePath = "C:\\Users\\saaba\\Downloads\\sample-1.pdf";
+            string filePath = "C:\\Users\\saaba\\Downloads\\file.png";
             Assert.IsTrue(File.Exists(filePath), "File not downloaded.");
         }
 

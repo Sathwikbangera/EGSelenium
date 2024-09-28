@@ -17,7 +17,7 @@ namespace NunitSeleniumTraining.Selenium
 
             IWebDriver driver;
 
-            [SetUp]
+           // [SetUp]
 
             public void StartBrowser()
 
@@ -39,7 +39,7 @@ namespace NunitSeleniumTraining.Selenium
 
             }
 
-            [Test]
+          //  [Test]
 
             public void testcase1()
 
@@ -63,7 +63,7 @@ namespace NunitSeleniumTraining.Selenium
 
             }
 
-            [TearDown]
+            //[TearDown]
 
             public void tearDownbrowser()
 

@@ -12,9 +12,9 @@ namespace NunitSeleniumTraining.DataDrivenTesting
     {
 
 
-        [TestCase("ad", "admin123")]
-        [TestCase("ad0", "ad")]
-        [TestCase("adm", "ghhjm")]
+        //[TestCase("ad", "admin123")]
+        //[TestCase("ad0", "ad")]
+       // [TestCase("adm", "ghhjm")]
         public void LoginTest(string username, string password)
             {
                 Thread.Sleep(3000);

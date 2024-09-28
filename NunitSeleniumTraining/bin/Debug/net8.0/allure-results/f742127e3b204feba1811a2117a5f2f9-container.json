@@ -1,0 +1,12 @@
+{
+  "uuid": "6324103d-3ec9-489e-b31f-fd8e1a410a45",
+  "name": "NunitSeleniumTraining.Assignment.parasoftregister.register(\"Sjhsddda\",\"admin123\",\"admin123\")",
+  "children": [
+    "aa5f4d54-2456-4e2f-b071-72108d005e36"
+  ],
+  "befores": [],
+  "afters": [],
+  "links": [],
+  "start": 1727454698050,
+  "stop": 1727454698080
+}

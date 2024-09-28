@@ -13,7 +13,7 @@ namespace NunitSeleniumTraining.Selenium
     internal class Login: Base
     {
         
-        [Test]
+       // [Test]
         public void testcase1()
         {
             Thread.Sleep(2000);

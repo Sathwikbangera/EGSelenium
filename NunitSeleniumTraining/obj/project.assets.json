@@ -2811,7 +2811,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\saaba\\.nuget\\packages\\": {}
+    "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -2819,11 +2819,11 @@
       "projectUniqueName": "C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\NunitSeleniumTraining.csproj",
       "projectName": "NunitSeleniumTraining",
       "projectPath": "C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\NunitSeleniumTraining.csproj",
-      "packagesPath": "C:\\Users\\saaba\\.nuget\\packages\\",
+      "packagesPath": "C:\\Windows\\system32\\config\\systemprofile\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\saaba\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Windows\\system32\\config\\systemprofile\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

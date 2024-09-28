@@ -30,7 +30,7 @@ public void StartBrowser()
         {
 
             IWebElement ChooseFile = driver.FindElement(By.XPath("//input[@id ='file-upload']"));
-            ChooseFile.SendKeys("C:\\Users\\saaba\\Downloads\\eg-logo\\EG Logo.png");
+            ChooseFile.SendKeys("C:\\Users\\saaba\\Downloads\\eg-logo\\EG Logo\\EG-LOGO.jpg");
 
             IWebElement Upload = driver.FindElement(By.XPath("//input[@id = 'file-submit']"));
             Upload.Click();

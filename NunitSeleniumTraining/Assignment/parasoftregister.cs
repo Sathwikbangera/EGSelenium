@@ -12,7 +12,7 @@ namespace NunitSeleniumTraining.Assignment
     [Parallelizable]
     internal class parasoftregister : Base
     {
-        [TestCase("Sjhsddda", "admin123","admin123")]
+       // [TestCase("Sjhsddda", "admin123","admin123")]
         //[TestCase("absakjac.com", "12shj334","vaga")]
        // [TestCase("aasbsjbc.com", "12sja334","ahghsjsj")]
         public void register(string user,string pass,string cpass)

@@ -1,0 +1,68 @@
+{
+  "uuid": "384c5c79-9698-46d8-ac8f-91683f9e5ff3",
+  "historyId": "15952e7156dcedeb61c2cc73dce24b7a",
+  "testCaseId": "922168c30e7a1ce23c71136783e83c17",
+  "fullName": "NunitSeleniumTraining:NunitSeleniumTraining.Assignment.parasoftregister.register(System.String,System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#2"
+    },
+    {
+      "name": "host",
+      "value": "AUTOGPDWLIC0VNZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSeleniumTraining.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "register"
+    },
+    {
+      "name": "testClass",
+      "value": "parasoftregister"
+    }
+  ],
+  "links": [],
+  "name": "register(\"Sjhsddda\",\"admin123\",\"admin123\")",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "OpenQA.Selenium.NoSuchElementException : no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//p[contains(text(),'Your account was created successfully. You are now')]\"}\n  (Session info: chrome=129.0.6668.70); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception",
+    "trace": "   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.FindElement(String mechanism, String value)\r\n   at OpenQA.Selenium.By.<.ctor>b__11_0(ISearchContext context)\r\n   at OpenQA.Selenium.By.FindElement(ISearchContext context)\r\n   at OpenQA.Selenium.WebDriver.FindElement(By by)\r\n   at NunitSeleniumTraining.Assignment.parasoftregister.register(String user, String pass, String cpass) in C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\Assignment\\parasoftregister.cs:line 78\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeDirectByRefWithFewArgs(Object obj, Span`1 copyOfArgs, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "user",
+      "value": "\"Sjhsddda\"",
+      "excluded": false
+    },
+    {
+      "name": "pass",
+      "value": "\"admin123\"",
+      "excluded": false
+    },
+    {
+      "name": "cpass",
+      "value": "\"admin123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1727456009518,
+  "stop": 1727456039714
+}

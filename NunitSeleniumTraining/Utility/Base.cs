@@ -49,9 +49,9 @@ namespace NunitSeleniumTraining.Utility
 
                 case "Edge":
                     // confifgure the web driver manager to set up the chrome capabilities
-                    new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+                    new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
                     // intialize the web driver 
-                    driver = new EdgeDriver();
+                    driver = new ChromeDriver();
                     break;
             }
         }

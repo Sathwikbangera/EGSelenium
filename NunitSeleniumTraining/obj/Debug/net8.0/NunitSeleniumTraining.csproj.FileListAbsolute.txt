@@ -127,6 +127,7 @@ C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debu
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSeleniumTraining.AssemblyInfoInputs.cache
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSeleniumTraining.AssemblyInfo.cs
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSeleniumTraining.csproj.CoreCompileInputs.cache
+C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSeleniumTraining.sourcelink.json
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSel.30117255.Up2Date
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\NunitSeleniumTraining.dll
 C:\Users\saaba\source\repos\NunitSeleniumTraining\NunitSeleniumTraining\obj\Debug\net8.0\refint\NunitSeleniumTraining.dll

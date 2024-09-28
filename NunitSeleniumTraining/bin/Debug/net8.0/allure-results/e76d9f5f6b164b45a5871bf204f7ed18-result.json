@@ -1,0 +1,68 @@
+{
+  "uuid": "aa5f4d54-2456-4e2f-b071-72108d005e36",
+  "historyId": "15952e7156dcedeb61c2cc73dce24b7a",
+  "testCaseId": "922168c30e7a1ce23c71136783e83c17",
+  "fullName": "NunitSeleniumTraining:NunitSeleniumTraining.Assignment.parasoftregister.register(System.String,System.String,System.String)",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "host",
+      "value": "AUTOGPDWLIC0VNZ"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "NUnit 3"
+    },
+    {
+      "name": "package",
+      "value": "NunitSeleniumTraining.Assignment"
+    },
+    {
+      "name": "testMethod",
+      "value": "register"
+    },
+    {
+      "name": "testClass",
+      "value": "parasoftregister"
+    }
+  ],
+  "links": [],
+  "name": "register(\"Sjhsddda\",\"admin123\",\"admin123\")",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "System.AggregateException : One or more errors occurred. (No such host is known. (googlechromelabs.github.io:443))\r\n  ----> System.Net.Http.HttpRequestException : No such host is known. (googlechromelabs.github.io:443)\r\n  ----> System.Net.Sockets.SocketException : No such host is known.\r\nTearDown : System.NullReferenceException : Object reference not set to an instance of an object.",
+    "trace": "   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)\r\n   at System.Threading.Tasks.Task.Wait(Int32 millisecondsTimeout, CancellationToken cancellationToken)\r\n   at System.Threading.Tasks.Task.Wait()\r\n   at WebDriverManager.Clients.ChromeForTestingClient.GetResultFromHttpTask[TResult](Task`1 taskToRun)\r\n   at WebDriverManager.Clients.ChromeForTestingClient.GetLastKnownGoodVersions()\r\n   at WebDriverManager.DriverConfigs.Impl.ChromeConfig.GetLatestVersion()\r\n   at WebDriverManager.DriverManager.GetVersionToDownload(IDriverConfig config, String version)\r\n   at WebDriverManager.DriverManager.SetUpDriver(IDriverConfig config, String version, Architecture architecture)\r\n   at NunitSeleniumTraining.Utility.Base.InitBrowser(String browserName) in C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\Utility\\Base.cs:line 52\r\n   at NunitSeleniumTraining.Utility.Base.startbrowser() in C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\Utility\\Base.cs:line 22\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)\r\n--HttpRequestException\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.CreateHttp11ConnectionAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.AddHttp11ConnectionAsync(QueueItem queueItem)\r\n   at System.Threading.Tasks.TaskCompletionSourceWithCancellation`1.WaitWithCancellationAsync(CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.SendWithVersionDetectionAndRetryAsync(HttpRequestMessage request, Boolean async, Boolean doRequestAuth, CancellationToken cancellationToken)\r\n   at System.Net.Http.RedirectHandler.SendAsync(HttpRequestMessage request, Boolean async, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpClient.<SendAsync>g__Core|83_0(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationTokenSource cts, Boolean disposeCts, CancellationTokenSource pendingRequestsCts, CancellationToken originalCancellationToken)\r\n--SocketException\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.ThrowException(SocketError error, CancellationToken cancellationToken)\r\n   at System.Net.Sockets.Socket.AwaitableSocketAsyncEventArgs.System.Threading.Tasks.Sources.IValueTaskSource.GetResult(Int16 token)\r\n   at System.Net.Sockets.Socket.<ConnectAsync>g__WaitForConnectWithCancellation|285_0(AwaitableSocketAsyncEventArgs saea, ValueTask connectTask, CancellationToken cancellationToken)\r\n   at System.Net.Http.HttpConnectionPool.ConnectToTcpHostAsync(String host, Int32 port, HttpRequestMessage initialRequest, Boolean async, CancellationToken cancellationToken)\r\n--TearDown\r\n   at NunitSeleniumTraining.Utility.Base.TearDown() in C:\\Users\\saaba\\source\\repos\\NunitSeleniumTraining\\NunitSeleniumTraining\\Utility\\Base.cs:line 63\r\n   at System.RuntimeMethodHandle.InvokeMethod(Object target, Void** arguments, Signature sig, Boolean isConstructor)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithNoArgs(Object obj, BindingFlags invokeAttr)"
+  },
+  "stage": "finished",
+  "steps": [],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "user",
+      "value": "\"Sjhsddda\"",
+      "excluded": false
+    },
+    {
+      "name": "pass",
+      "value": "\"admin123\"",
+      "excluded": false
+    },
+    {
+      "name": "cpass",
+      "value": "\"admin123\"",
+      "excluded": false
+    }
+  ],
+  "start": 1727454698051,
+  "stop": 1727454698059
+}

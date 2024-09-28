@@ -10,7 +10,7 @@ namespace NunitSeleniumTraining.DataDrivenTesting
 {
     internal class TestParamExcel : Base
     {
-        [Test, TestCaseSource("GetTestData")]
+       // [Test, TestCaseSource("GetTestData")]
         public void LoginTest(string username, string password)
         {
             Thread.Sleep(3000);

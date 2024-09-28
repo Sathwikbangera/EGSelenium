@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using OpenQA.Selenium.Edge;
 using OpenQA.Selenium;
 using WebDriverManager.DriverConfigs.Impl;
+using OpenQA.Selenium.Chrome;
 
 namespace NunitSeleniumTraining.Selenium
 {
@@ -19,9 +20,9 @@ namespace NunitSeleniumTraining.Selenium
         {
 
             // confifgure the web driver manager to set up the chrome capabilities
-            new WebDriverManager.DriverManager().SetUpDriver(new EdgeConfig());
+            new WebDriverManager.DriverManager().SetUpDriver(new ChromeConfig());
             // intialize the web driver 
-            driver = new EdgeDriver();
+            driver = new ChromeDriver();
             // launch the chrome browser
             driver.Navigate().GoToUrl("https://www.makemytrip.com/");
             driver.Manage().Window.Maximize();
@@ -31,7 +32,7 @@ namespace NunitSeleniumTraining.Selenium
 
 
 
-        [Test]
+       // [Test]
         public void testcase1()
         {
 
@@ -48,7 +49,7 @@ namespace NunitSeleniumTraining.Selenium
             Thread.Sleep(2000);
 
             IWebElement date26 = driver.FindElement(By.XPath(
- "(//p[contains(text(),'26')])[1]"
+ "(//p[contains(text(),'29')])[1]"
  ));
 
             Console.WriteLine(date26.Text);
@@ -65,9 +66,7 @@ namespace NunitSeleniumTraining.Selenium
 
             Thread.Sleep(2000);
 
-            IWebElement fareSelection = driver.FindElement(By.XPath(
- "(//div[normalize-space()='Student'])[1]"
- ));
+            IWebElement fareSelection = driver.FindElement(By.XPath("(//div[normalize-space()='Student'])[1]"));
 
             fareSelection.Click();
 

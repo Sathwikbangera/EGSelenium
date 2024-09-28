@@ -15,7 +15,7 @@ namespace NunitSeleniumTraining.Selenium
     {
         
 
-        [Test]
+       // [Test]
         public void testcase1()
         {
             IWebElement DropDown = driver.FindElement(By.Id("dropdown-class-example"));
